@@ -23,7 +23,7 @@ logStart()
 A = [random.randint(1,100) for x in range(10000)]
 logEnd()
 
-# Takes 8s to sort range(10000)
+# Takes 8s for range(10000)
 
 def insertionSort(A):
     #print("In: " + str(A))
